@@ -36,7 +36,7 @@ Pour simplifier cette tâche, le modèle utilise une technique de discrétisatio
 
 ### De la grille rigide à la Tessellation de Voronoï
 
-Avant PIGEON, les chercheurs utilisaient principalement le quadrillage classique. Le problème est que ces carrés ne respectent pas les frontières naturelles (une frontière, un fleuve ou une chaîne de montagne peut se retrouver coupée en deux). L'innovation de PIGEON est d'utiliser un découpage sémantique: le puzzle suit les vraies frontières (villes, arrondissements) car c'est là que l'apparence des rues change le plus.
+Avant PIGEON, les chercheurs utilisaient principalement le quadrillage classique. Le problème est que ces carrés ne respectent pas les frontières naturelles (une frontière, un fleuve ou une chaîne de montagne peut se retrouver coupée en deux). L'innovation de PIGEON est d'utiliser un découpage sémantique: le puzzle suit les vraies frontières (villes, arrondissements) car cest là que l'apparence des rues change le plus.
 
 ![Comparaison entre les cellules rectangulaires et les cellules sémantiques sur Paris](/assets/img/worldplace/semantic_geocells_paris.png){: .shadow .rounded-10 }
 _Figure 2 : À gauche un découpage classique, à droite le découpage sémantique (Voronoï) de WorldPlace sur Paris et sa couronne._
@@ -75,7 +75,7 @@ Dans le domaine du Deep Learning, cette mesure est effectuée par une fonction d
 
 Pour pallier cette lacune, le modèle s'appuie sur la formule de Haversine. Cette équation mathématique permet de calculer la distance la plus courte entre deux points sur une sphère, on appelle cela une géodésique c'est-à-dire la distance réelle "à vol d'oiseau" sur la courbure terrestre.
 
-![Représentation de la distance géodésique de Haversine sur une sphère](/assets/img/worldplace/haversine_distance.png){: .shadow .rounded-10 .w-50 }
+![Représentation de la distance géodésique de Haversine sur une sphère](/assets/img/worldplace/haversine_distance.png){: .shadow .rounded-10 }
 _Figure 4 : Calcul de la distance géodésique entre deux points P et Q._
 
 L'innovation de PIGEON réside dans l'utilisation du Lissage Haversine (Haversine Smoothing). 
@@ -106,19 +106,25 @@ Le modèle a développé une logique de déduction similaire à celle des joueur
 ### Les contraintes législatives
 Dans certains pays, la législation oblige Google à modifier sa façon de capturer ou diffuser les images.
 * **L'Allemagne ("Blurmany") :** Le modèle identifie le taux très élevé de floutage des immeubles, résultant d'une loi permettant aux citoyens de s'opposer à la publication de leur domicile.
+
 ![Bâtiments floutés en Allemagne](/assets/img/worldplace/allemagne.jpg){: .shadow .rounded-10 }
 
 * **La Suisse (et le Japon / l'Autriche) :** La loi interdisant de filmer les espaces privés non visibles depuis la rue, Google utilise souvent une "Low-Cam" (caméra placée plus bas). Le modèle détecte ce changement de perspective.
+
 ![Caméra basse (Low-Cam) en Suisse](/assets/img/worldplace/suisse.png){: .shadow .rounded-10 }
 
 ### Les protocoles de sécurité
 * **Le Nigeria :** C'est le seul pays où l'escorte par un véhicule de police ou de sécurité est systématique et visible dans le champ de vision de la caméra.
+
 ![Voiture de police escortant la Google Car au Nigeria](/assets/img/worldplace/nigeria.jpg){: .shadow .rounded-10 }
 
 ### L'équipement du véhicule (Car Meta)
 Le modèle apprend à identifier le véhicule porteur, dont certains éléments ne sont pas totalement effacés par l'algorithme.
-* **La Mongolie :** Le modèle reconnaît facilement les barres de toit spécifiques ou l'équipement de camping (comme une bâche recouvrant le matériel) adapté au tout-terrain.
+* **La Mongolie :** Le modèle reconnaît facilement les barres de toit spécifiques. Souvent, elles transportent un équipement de camping volumineux, généralement recouvert d'une bâche de protection caractéristique, adapté aux longues pistes tout-terrain du pays.
+
 ![Équipement sur le toit de la voiture en Mongolie](/assets/img/worldplace/mongolie.jpg){: .shadow .rounded-10 }
+
+<br>
 
 ![Cartes d'attention visuelle montrant les points d'intérêt de l'IA](/assets/img/worldplace/attention_maps.png){: .shadow .rounded-10 }
 _Figure 5 : Cartes d'attention (Heatmaps) révélant les zones analysées par le modèle, comme la végétation ou les flous de caméra._
