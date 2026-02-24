@@ -71,7 +71,7 @@ Une fois les points d'intérêt repérés, il faut tracer les limites physiques 
 <br>
 
 ![Comparaison entre les cellules rectangulaires et les cellules sémantiques sur Paris](/assets/img/worldplace/semantic_geocells_paris.png){: .shadow .rounded-10 }
-_Figure 2 : À gauche un découpage classique, à droite le découpage sémantique (Voronoï) de WorldPlace sur Paris et sa couronne._
+_Figure 2 : À gauche un découpage classique, à droite le découpage sémantique en utilisant la tesselation Voronoï ._
 
 <br>
 
@@ -353,7 +353,7 @@ _Figure 7 : Étude d'ablation démontrant l'impact critique de chaque composant 
 
 ### Le benchmark humain : La validation par un expert
 
-Le duel face à Trevor Rainbolt, référence mondiale du jeu GeoGuessr, a servi de validation finale. En remportant 6 matchs sur 6 avec une moyenne de 4 525 points par round, PIGEON a prouvé que sa combinaison de classification sémantique et d'interpolation mathématique surpasse l'intuition humaine la plus affûtée.
+Le duel face à Trevor Rainbolt, référence mondiale du jeu GeoGuessr, a servi de validation finale. En remportant 6 matchs sur 6, PIGEON a prouvé que sa combinaison de classification sémantique et d'interpolation mathématique surpasse l'intuition humaine la plus affûtée.
 
 <br>
 
