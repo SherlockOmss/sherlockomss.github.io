@@ -2,6 +2,7 @@
 layout: post
 title: "WorldPlace : Retrouver n'importe quel endroit dans le monde à partir d'une image"
 date: 2026-02-23 12:00:00 +0100
+toc: true
 image:
   path: /assets/img/worldplace/cover_eye.jpg
   alt: Un œil reflétant la Terre, image de couverture du projet WorldPlace.
