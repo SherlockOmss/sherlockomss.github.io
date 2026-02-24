@@ -6,8 +6,8 @@ icon: fas fa-info-circle
 order: 4
 ---
 
-> Add Markdown syntax content to file `_tabs/about.md`{: .filepath } and it will show up on this page.
-Hey ! I'm Emile, graduated of a computer science degree, currently I'm a cybersecurity student, also known as **SherlockOmss** or **Omss**, I'm an osint, reverse, mathematics, deep learning, computer vision, and competitive programming enjoyer. 
+
+Hey ! I'm Emile, graduated of a computer science degree, currently I'm a cybersecurity student, also known as **SherlockOmss**, I'm an osint, reverse, mathematics, deep learning, computer vision, and competitive programming enjoyer. 
 
 I read a lot of articles about AI, cybersecurity, and computer science and I share interesting things here.
 
