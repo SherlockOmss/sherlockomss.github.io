@@ -4,7 +4,7 @@ title: "WorldPlace : Retrouver n'importe quel endroit dans le monde à partir d'
 date: 2026-02-23 12:00:00 +0100
 slug : worldplace
 categories: [Intelligence Artificielle, Computer Vision]
-tags: [PIGEON, Geoguessr, Deep Learning, Paris, Mapillary]
+tags: [PIGEON, Geoguessr, Deep Learning, Mapillary, Google Street View, Geoint] 
 toc: true
 image:
   path: /assets/img/worldplace/cover_eye.jpg
@@ -73,7 +73,7 @@ Une fois les points d'intérêt repérés, il faut tracer les limites physiques 
 <br>
 
 ![Comparaison entre les cellules rectangulaires et les cellules sémantiques sur Paris](/assets/img/worldplace/semantic_geocells_paris.png){: .shadow .rounded-10 }
-_Figure 2 : À gauche un découpage classique, à droite le découpage sémantique en utilisant la tesselation Voronoï ._
+_Figure 2 : À gauche un découpage classique, à droite le découpage sémantique en utilisant la tessellation Voronoï ._
 
 <br>
 
