@@ -374,4 +374,4 @@ En faisant le choix conscient de garder leur modèle fermé, l'équipe de recher
 
 **La vidéo qui m'a inspiré pour ce projet :** [Trouver n’importe quel endroit en 0.1 seconde](https://www.youtube.com/watch?v=t-6ILUMrxWg) (par _What a Fail !_).
 
-Merci d'avoir lu jusqu'au bout ! Si vous avez des questions ou que vous voulez discuter, contactez-moi sur Discord : **omss**.
+Merci d'avoir lu jusqu'au bout ! Si vous avez des questions ou que vous voulez discuter, n'hésitez pas à me contacter sur Discord : **omss**.
