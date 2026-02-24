@@ -37,7 +37,7 @@ _Figure 1 : Vue d'ensemble des 4 étapes clés du modèle PIGEON (Découpage, An
 
 Le principal obstacle à la géolocalisation automatique est l'immensité de l'espace de recherche. Demander à un modèle de pointer un endroit précis sur une carte du monde sans guide revient à lui demander de trouver une aiguille dans une botte de foin de la taille de la Terre : les possibilités sont infinies, et la marge d'erreur est immense. Pour bien mesurer la difficulté, chercher une position précise au mètre près sur la planète revient à tenter de deviner un mot de passe complexe en utilisant de la force brute. Sans découpe, le modèle devrait choisir parmi plus de 500 millions de milliards de points à l'échelle mondiale.
 
-Pour simplifier cette tâche, le modèle utilise une technique de discrétisation. Au lieu de laisser le modèle naviguer sur une carte "lisse" et continue, nous transformons le terrain en cellules.
+Pour simplifier cette tâche, le modèle utilise une technique de discrétisation. Au lieu de laisser le modèle naviguer sur une carte "lisse" et continue, nous transformons le terrain en cellules. **Pour faire une analogie, chercher une localisation exacte sur Terre revient à chercher un ouvrage précis dans une bibliothèque infinie. Plutôt que d'examiner chaque livre un par un au hasard, ce système permet d'identifier d'abord la bonne étagère (la *Geocell*). Une fois l'étagère trouvée, dénicher le livre exact devient infiniment plus simple.**
 
 * **La création de cellules :** La carte est découpée en milliers de zones distinctes, les Geocells (cellules géographiques).
 * **La simplification du problème :** Grâce à ce découpage, le modèle ne cherche plus une coordonnée au hasard. Le modèle fait face à un "QCM spatial" : son rôle est de classer l'image dans la case qui lui correspond le mieux. En transformant ce problème en un choix parmi quelques milliers de cellules, nous réduisons la complexité d'un facteur immense, permettant au modèle de se concentrer sur la reconnaissance de zones cohérentes plutôt que sur une recherche mathématique infinie.
@@ -315,7 +315,7 @@ Alors que PIGEON est un spécialiste de l'environnement urbain (Street View), PI
 ### Statistiques de performance (PIGEON)
 
 Sur l'ensemble de test massif de 5 000 images Street View, PIGEON affiche des résultats remarquables :
-**Score GeoGuessr Moyen :** Le modèle atteint une moyenne de 4 525 points sur un maximum de 5 000. Ce score reflète une régularité exceptionnelle sur des environnements très diversifiés.
+**Score GeoGeoGuessr Moyen :** Le modèle atteint une moyenne de 4 525 points sur un maximum de 5 000. Ce score reflète une régularité exceptionnelle sur des environnements très diversifiés.
 
 | Rayon de distance | Taux de Réussite |
 | :--- | :--- |
