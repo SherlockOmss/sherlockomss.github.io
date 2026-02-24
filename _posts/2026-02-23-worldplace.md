@@ -178,6 +178,11 @@ L'innovation de PIGEON réside dans l'utilisation du Lissage Haversine (Haversin
 
 <br>
 
+![Impact du lissage Haversine sur des cellules voisines à Accra, Ghana](/assets/img/worldplace/haversine_ghana.jpg){: .shadow .rounded-10 .w-100 }
+_Figure 5 : Impact de l'application du lissage Haversine sur des cellules géographiques voisines pour une localisation à Accra, Ghana (à gauche sans lissage, à droite avec lissage)._
+
+<br>
+
 ---
 
 <br>
@@ -190,7 +195,7 @@ Une fois que le modèle a réduit le champ de recherche à une cellule de Vorono
 
 ### 4.1 Le concept des "Groupes de référence" (Clustering)
 
-Pour gagner en précision, chaque cellule de Voronoï est elle-même subdivisée en "groupes de référence". Si la classification globale permet de trouver l’étagère (la cellule), ces groupes permettent d’identifier le livre exact. Le modèle ne se contente plus de situer l’image dans une région ; il la rattache à une grappe de photos dont les signatures numériques (embeddings) sont très proches. Cela permet de créer des points de repère ultra-locaux au sein même d'un quartier ou d'une ville.
+Pour gagner en précision, chaque cellule de Voronoï est elle-même subdivisée en "groupes de référence". Si la classification globale permet de trouver l’étagère (la cellule), ces groupes permettent d’identifier le livre exact. Le modèle ne se contente plus de situer l’image dans une région ; il la rattache à une grappe de photos dont les signatures numériques (embeddings) sont très proches. Cela permet de créer des points de repère ultra-locaux au sein même d'un quartier ou d'ville.
 
 <br>
 
@@ -265,6 +270,7 @@ C'est le seul pays où l'escorte par un véhicule de police ou de sécurité est
 <br>
 
 ### L'équipement du véhicule (Car Meta)
+
 Le modèle apprend à identifier le véhicule porteur, dont certains éléments ne sont pas totalement effacés par l'algorithme.
 
 <br>
@@ -280,12 +286,12 @@ Le modèle reconnaît facilement les barres de toit spécifiques. Souvent, elles
 
 ### L'attention visuelle de l'IA
 
-Sur ces images on peut voir les zones qui attirent l'attention du modèle pour retrouver la géolocalisation, on peut voir qu'elle observe la végétation et l'architecture, mais on peut également voir plein de points isolés ce sont le flou de la caméra, le modèle a appris de lui-même à utiliser le flou de la caméra comme indice, et d'autres stratégies similaires à un joueur humain en les perfectionnant.
+Sur ces images on peut voir les zones qui attirent l'attention du modèle pour retrouver la géolocalisation. On peut voir qu'elle observe la végétation et l'architecture, mais on peut également voir plein de points isolés : ce sont le flou de la caméra. Le modèle a appris de lui-même à utiliser le flou de la caméra comme indice, et d'autres stratégies similaires à un joueur humain en les perfectionnant.
 
 <br>
 
 ![Cartes d'attention visuelle montrant les points d'intérêt de l'IA](/assets/img/worldplace/attention_maps.png){: .shadow .rounded-10 .w-100 }
-_Figure 5 : Cartes d'attention (Heatmaps) révélant les zones analysées par le modèle, comme la végétation ou les flous de caméra._
+_Figure 6 : Cartes d'attention (Heatmaps) révélant les zones analysées par le modèle, comme la végétation ou les flous de caméra._
 
 <br>
 
@@ -315,7 +321,7 @@ Alors que PIGEON est un spécialiste de l'environnement urbain (Street View), PI
 ### Statistiques de performance (PIGEON)
 
 Sur l'ensemble de test massif de 5 000 images Street View, PIGEON affiche des résultats remarquables :
-**Score GeoGeoGuessr Moyen :** Le modèle atteint une moyenne de 4 525 points sur un maximum de 5 000. Ce score reflète une régularité exceptionnelle sur des environnements très diversifiés.
+**Score GeoGuessr Moyen :** Le modèle atteint une moyenne de 4 525 points sur un maximum de 5 000. Ce score reflète une régularité exceptionnelle sur des environnements très diversifiés.
 
 | Rayon de distance | Taux de Réussite |
 | :--- | :--- |
@@ -334,7 +340,7 @@ L'étude d'ablation (retrait progressif des composants) confirme que la supério
 <br>
 
 ![Tableau des performances et étude d'ablation du modèle PIGEON](/assets/img/worldplace/performances_metrics.png){: .shadow .rounded-10 }
-_Figure 6 : Étude d'ablation démontrant l'impact critique de chaque composant (comme le lissage Haversine) sur la précision géographique._
+_Figure 7 : Étude d'ablation démontrant l'impact critique de chaque composant (comme le lissage Haversine) sur la précision géographique._
 
 <br>
 
