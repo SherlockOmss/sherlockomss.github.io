@@ -8,7 +8,6 @@ tags: [PIGEON, Geoguessr, Deep Learning, Mapillary, Google Street View, Geoint]
 toc: true
 image:
   path: /assets/img/worldplace/cover_eye.jpg
-  alt: Un œil reflétant la Terre, image de couverture du projet WorldPlace.
 ---
 
 <br>

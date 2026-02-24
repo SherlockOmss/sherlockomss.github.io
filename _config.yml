@@ -13,18 +13,16 @@ timezone: Europe/Paris
 # Paramètres SEO
 
 title: SherlockOmss # Titre principal (Sidebar)
-tagline: Sharing my knowledges and research. # Ta description juste en dessous
+tagline: Sharing my knowledges and interesting things here. # Ta description juste en dessous
 description: >- # Utilisé pour le référencement Google
-  Sharing my knowledges and research about cybersecurity and write-ups.
 
-# L'URL de ton site (en minuscules pour éviter les bugs)
 url: "https://sherlockomss.github.io"
 
 github:
   username: SherlockOmss
 
 twitter:
-  username: # Tu peux ajouter ton handle ici si tu en as un
+  username:
 
 social:
   name: SherlockOmss # S'affichera dans le footer (Copyright)
