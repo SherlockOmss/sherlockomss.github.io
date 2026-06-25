@@ -2,7 +2,7 @@
 layout: post
 title: "WorldPlace : Retrouver n'importe quel endroit dans le monde à partir d'une image"
 date: 2026-02-23 12:00:00 +0100
-slug: worldplace
+slug: worldplace_fr
 lang: fr
 permalink: /posts/fr/worldplace/
 categories: [Intelligence Artificielle, Computer Vision]

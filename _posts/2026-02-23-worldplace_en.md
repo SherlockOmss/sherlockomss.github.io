@@ -2,14 +2,14 @@
 layout: post
 title: "WorldPlace: Finding Any Location in the World from an Image"
 date: 2026-02-23 12:00:00 +0100
-slug : worldplace
+slug: worldplace
 lang: en
 permalink: /posts/en/worldplace/
 categories: [Artificial Intelligence, Computer Vision]
 tags: [PIGEON, Geoguessr, Deep Learning, Mapillary, Google Street View, Geoint]
 toc: true
 image:
-path: /assets/img/worldplace/cover_eye.jpg
+  path: /assets/img/worldplace/cover_eye.jpg
 ---
 
 <br>
