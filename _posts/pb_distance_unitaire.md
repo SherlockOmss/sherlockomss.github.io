@@ -7,7 +7,7 @@ categories: [Intelligence Artificielle, Mathématiques, Recherche]
 tags: [Math, LLM, IA, ChatGPT, OpenAI, DeepMind, Erdős, Algorithmique, Cryptographie] 
 toc: true
 image:
-  path: /assets/img/unit_distance/ai_math.webp
+  path: /assets/img/unit_distance/ai_math.png
 ---
 
 <br>
@@ -54,7 +54,7 @@ Erdős avait trouvé une structure en forme de grille permettant de maximiser le
 
 Son raisonnement s'appuyait sur une contrainte physique de la géométrie en deux dimensions. Pour qu'un point A et un point B soient tous deux à exactement un mètre d'un point C, ce point C doit obligatoirement se trouver à l'intersection de deux cercles d'un mètre de rayon tracés autour de A et B. Or, sur un plan plat, deux cercles distincts ne peuvent se croiser qu'en deux endroits au maximum. Il est donc impossible d'avoir une densité de points élevée tout en respectant cette distance.
 
-![Construction faites par Erdős](/assets/img/unit_distance/construction.svg){: .shadow .rounded-10 }
+![Construction faites par Erdős](/assets/img/unit_distance/construction.png){: .shadow .rounded-10 }
 _Construction précédemment connue permettant d’obtenir un grand nombre de distances unitaires à partir d’une grille carrée mise à l’échelle._
 
 <br>
