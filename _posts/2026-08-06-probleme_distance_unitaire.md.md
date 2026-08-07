@@ -83,7 +83,7 @@ Le modèle d'OpenAI a réfuté l'hypothèse d'Erdős, mais n'a pas trouvé de so
 
 ## Applications et Implications 
 
-Bien qu'il s'agisse d'un problème de mathématiques pures et de géométrie discrète dont les retombées industrielles mettront des années à se matérialiser, les applications de cette découverte — et surtout de la méthode utilisée pour y parvenir — sont très concrètes.
+Bien qu'il s'agisse d'un problème de mathématiques pures et de géométrie discrète dont les retombées industrielles mettront des années à se matérialiser, les applications de cette découverte et surtout de la méthode utilisée pour y parvenir sont très concrètes.
 
 Voici les principales applications et implications de cette résolution :
 
@@ -102,12 +102,13 @@ Le problème de la distance unitaire est intrinsèquement lié à la **théorie 
 <br>
 
 ### 3. Avancées en cryptographie et théorie de l'information
-Pour réfuter la conjecture, l'IA ne s'est pas contentée de "dessiner" des points ; elle a utilisé des outils mathématiques très complexes issus de la **théorie algébrique des nombres**. Il s'avère que c'est exactement cette même branche qui fonde la cryptographie moderne (notamment la cryptographie sur les **courbes elliptiques** et les algorithmes résistants à l'informatique quantique). Les nouvelles constructions mathématiques découvertes par le modèle pourraient inspirer la création de nouveaux protocoles de chiffrement.
-
+Pour réfuter cette conjecture, l'IA ne s'est pas contentée de "dessiner" des points. Elle a mobilisé des concepts très avancés issus de la **théorie algébrique des nombres**. Or, il s'agit précisément de la branche mathématique qui sous-tend la majeure partie de la cryptographie moderne, allant des **courbes elliptiques (ECC)** jusqu'aux algorithmes conçus pour résister à l'informatique quantique. Les structures découvertes par le modèle ouvrent ainsi une double perspective fascinante : elles pourraient inspirer l'élaboration de nouveaux protocoles de **chiffrement post-quantique** redoutables, tout comme elles pourraient, à l'inverse, révéler des **vulnérabilités critiques** inattendues dans nos standards de sécurité actuels.
 <br>
 
 ### 4. Modélisation spatiale (Cristallographie et Chimie)
 Dans le monde physique, les atomes et les molécules s'organisent selon des distances très strictes en raison des forces de liaison. Le problème de la distance unité se penche sur la densité maximale de points espacés de manière identique. Les avancées sur ces limites théoriques aident les scientifiques des matériaux à comprendre ou prédire de nouvelles structures cristallines, des alliages ou des configurations moléculaires stables qui respectent ces contraintes de distance spatiale.
+
+<br>
 
 > **En résumé**, si la géométrie discrète pure est la première bénéficiaire de cette découverte, les outils mathématiques utilisés par l'IA pour y parvenir auront des applications directes dans la conception de **réseaux informatiques**, la **cryptographie** et la **chimie structurelle**.
 
@@ -136,7 +137,7 @@ Ce domaine est très proche du problème mathématique initial, car la chimie re
 
 ### 2. Médecine et Pharmacologie
 La biologie moléculaire est souvent limitée par notre capacité à modéliser des interactions physiques complexes.
-* **Conception de médicaments (repliement des protéines) :** La recherche fonctionne souvent sur le modèle "clé-serrure" (l'emboîtement 3D d'une molécule dans un récepteur). Si l'IA traduit ce problème biomécanique en un problème de théorie des graphes abstraits, elle pourrait concevoir des molécules aux architectures inédites, impossibles à simuler classiquement en raison du nombre de possibilités (de l'ordre de $10^{300}$).
+* **Conception de médicaments (repliement des protéines) :** La recherche fonctionne souvent sur le modèle "clé-serrure" (l'emboîtement 3D d'une molécule dans un récepteur). Si l'IA traduit ce problème biomécanique en un problème de théorie des graphes abstraits, elle pourrait concevoir des molécules aux architectures inédites, impossibles à simuler classiquement en raison du nombre de possibilités (de l'ordre de 10<sup>300</sup>).
 * **Maladies multifactorielles :** Les réseaux d'interactions génétiques et protéiques liés aux cancers ou à la maladie d'Alzheimer sont très vastes. Une IA capable de traduire ces réseaux en structures algébriques pourrait y détecter des vulnérabilités ou des schémas cachés.
 
 <br>
@@ -145,7 +146,7 @@ La biologie moléculaire est souvent limitée par notre capacité à modéliser 
 La physique bute actuellement sur des barrières théoriques, notamment l'incompatibilité entre la mécanique quantique et la relativité générale pour former un modèle universel.
 * **L'unification des lois de la physique :** Tout comme elle a connecté la géométrie discrète et la théorie des nombres, l'IA pourrait trouver un lien entre les équations quantiques et gravitationnelles. En projetant ces théories dans un espace mathématique de dimension supérieure, elle pourrait trouver le cadre où elles coexistent sans contradiction.
 
-**En conclusion**, au-delà de la résolution géométrique, cette avancée montre que l'intelligence artificielle peut passer du statut d'outil de synthèse à celui d'outil de recherche fondamentale autonome, capable de manipuler des concepts bien en dehors de notre perception spatiale habituelle.
+**En conclusion**, au-delà de la résolution géométrique, cette avancée montre que l'intelligence artificielle peut passer du statut d'outil de synthèse à celui d'outil de recherche fondamentale autonome, capable de manipuler des concepts bien en dehors de notre perception spatiale habituelle, et pourrait peut être sauver des vies dans un avenir proche.
 
 <br>
 
