@@ -87,6 +87,8 @@ Bien qu'il s'agisse d'un problème de mathématiques pures et de géométrie dis
 
 Voici les principales applications et implications de cette résolution :
 
+<br>
+
 ### 1. La validation de l'IA comme chercheur autonome
 L'application immédiate la plus massive n'est pas la géométrie elle-même, mais la démonstration. Jusqu'à présent, l'IA excellait pour synthétiser des connaissances existantes. Ici, pour la première fois, le modèle a connecté deux branches des mathématiques (**la géométrie pure et la théorie algébrique des nombres**) pour générer une nouvelle construction mathématique, indétectée par les humains pendant 80 ans. 
 
@@ -103,6 +105,7 @@ Le problème de la distance unitaire est intrinsèquement lié à la **théorie 
 
 ### 3. Avancées en cryptographie et théorie de l'information
 Pour réfuter cette conjecture, l'IA ne s'est pas contentée de "dessiner" des points. Elle a mobilisé des concepts très avancés issus de la **théorie algébrique des nombres**. Or, il s'agit précisément de la branche mathématique qui sous-tend la majeure partie de la cryptographie moderne, allant des **courbes elliptiques (ECC)** jusqu'aux algorithmes conçus pour résister à l'informatique quantique. Les structures découvertes par le modèle ouvrent ainsi une double perspective fascinante : elles pourraient inspirer l'élaboration de nouveaux protocoles de **chiffrement post-quantique** redoutables, tout comme elles pourraient, à l'inverse, révéler des **vulnérabilités critiques** inattendues dans nos standards de sécurité actuels.
+
 <br>
 
 ### 4. Modélisation spatiale (Cristallographie et Chimie)
@@ -159,7 +162,7 @@ La physique bute actuellement sur des barrières théoriques, notamment l'incomp
 * [Planète Grandes Écoles : Intelligence artificielle résout problème maths conjecture](https://www.planetegrandesecoles.com/intelligence-artificielle-resout-probleme-maths-conjecture)
 * [SciTechDaily : For the first time ChatGPT has solved an unproven math problem in geometry](https://scitechdaily.com/for-the-first-time-chatgpt-has-solved-an-unproven-math-problem-in-geometry/)
 * [Arxiv (2505.12575v1)](https://arxiv.org/html/2505.12575v1)
-* [YouTube (Vidéo explicative)](https://www.youtube.com/watch?v=AYPQIntoJeE&t)
+* [YouTube : Pourquoi les mathématiciens s'inquiètent de l'avenir de leur discipline](https://www.youtube.com/watch?v=AYPQIntoJeE&t)
 * [New Scientist : Deepmind and OpenAI claim gold in international mathematical olympiad](https://www.newscientist.com/article/2489248-deepmind-and-openai-claim-gold-in-international-mathematical-olympiad/)
 
 ### Papiers de recherche : 
